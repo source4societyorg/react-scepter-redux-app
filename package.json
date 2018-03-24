@@ -1,6 +1,6 @@
 {
   "name": "@source4society/react-scepter-redux-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A universal app container that configures a connection to a redux store and react-router",
   "main": "lib/index.js",
   "repository": "https://github.com/source4societyorg/react-scepter-redux-app.git",
@@ -44,7 +44,7 @@
     "@source4society/scepter-app-utilities": "^2.0.3",
     "react": "15.6.1",
     "react-redux": "^5.0.7",
-    "react-router-redux": "^4.0.8",
+    "react-router-redux": "5.0.0-alpha.6",
     "react-test-renderer": "15.6.1",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0"
