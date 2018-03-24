@@ -1,15 +1,15 @@
 {
-  "name": "@source4society/yourcomponentname",
+  "name": "@source4society/react-scepter-redux-app",
   "version": "1.0.0",
-  "description": "Add your description here",
+  "description": "A universal app container that configures a connection to a redux store and react-router",
   "main": "lib/index.js",
-  "repository": "https://github.com/source4societyorg/yourrepository.git",
+  "repository": "https://github.com/source4societyorg/react-scepter-redux-app.git",
   "author": "Source 4 Society",
   "license": "AGPL-3.0",
   "private": false,
   "scripts": {
     "test": "eslint ./src/*.js ./tests/*.js && jest --coverage",
-    "build": "babel src/index.js --minified --out-file lib/index.js",
+    "build": "babel src/index.js --minified --out-file lib/index.js && babel src/props.js --minified --out-file lib/props.js",
     "prepublish": "npm run build"
   },
   "jest": {
@@ -41,15 +41,13 @@
     "testRegex": "tests/.*\\.test\\.js$"
   },
   "dependencies": {
-    "@source4society/scepter-utility-lib": "^1.1.0",
-    "immutable": "3.8.1",
-    "moment": "^2.20.1",
+    "@source4society/scepter-app-utilities": "^2.0.3",
     "react": "15.6.1",
-    "react-dom": "15.6.1",
-    "react-router-dom": "4.1.1",
+    "react-redux": "^5.0.7",
+    "react-router-redux": "^4.0.8",
     "react-test-renderer": "15.6.1",
-    "redux-saga": "^0.16.0",
-    "reselect": "3.0.1"
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
   },
   "devDependencies": {
     "babel-cli": "6.24.1",
@@ -78,6 +76,8 @@
     "eslint-plugin-jsx-a11y": "5.0.3",
     "eslint-plugin-react": "^7.6.1",
     "eslint-plugin-redux-saga": "^0.6.0",
-    "jest-cli": "21.0.0"
+    "history": "^4.7.2",
+    "jest-cli": "21.0.0",
+    "react-dom": "^15.6.1"
   }
 }
