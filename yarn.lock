@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@source4society/scepter-app-utilities@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@source4society/scepter-app-utilities/-/scepter-app-utilities-2.0.3.tgz#1ef9f3d82e34c431524cd55ac13143303baf50d6"
+"@source4society/scepter-app-utilities@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@source4society/scepter-app-utilities/-/scepter-app-utilities-2.1.0.tgz#d562e2d28501954aaa6e8d443e45ba023a873baa"
   dependencies:
     "@source4society/scepter-utility-lib" "^1.1.0"
     hoist-non-react-statics "^2.5.0"
@@ -916,12 +916,6 @@ babel-plugin-transform-react-jsx@^6.24.1:
     babel-helper-builder-react-jsx "^6.24.1"
     babel-plugin-syntax-jsx "^6.8.0"
     babel-runtime "^6.22.0"
-
-babel-plugin-transform-react-remove-prop-types@0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.5.tgz#79d1958437ae23d4fbc0b11d1a041498ddb23877"
-  dependencies:
-    babel-traverse "^6.24.1"
 
 babel-plugin-transform-regenerator@^6.22.0, babel-plugin-transform-regenerator@^6.24.1:
   version "6.26.0"
